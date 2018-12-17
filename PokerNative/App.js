@@ -5,7 +5,9 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+        <Text class='welcomeSplash'>Welcome Splash</Text>
+        <Text class='aboutSplash'>About us</Text>
+        <Text>NextButton</Text>
       </View>
     );
   }
@@ -18,4 +20,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  splashText: {
+    flex: 1,
+    height: 10,
+  }
 });
